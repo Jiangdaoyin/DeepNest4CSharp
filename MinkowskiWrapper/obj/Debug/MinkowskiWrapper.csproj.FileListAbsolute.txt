@@ -1,0 +1,7 @@
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\MinkowskiWrapper\bin\Debug\MinkowskiWrapper.dll
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\MinkowskiWrapper\bin\Debug\MinkowskiWrapper.pdb
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\MinkowskiWrapper\obj\Debug\Minkowski.Properties.Resources.resources
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\MinkowskiWrapper\obj\Debug\MinkowskiWrapper.csproj.GenerateResource.cache
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\MinkowskiWrapper\obj\Debug\MinkowskiWrapper.csproj.CoreCompileInputs.cache
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\MinkowskiWrapper\obj\Debug\MinkowskiWrapper.dll
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\MinkowskiWrapper\obj\Debug\MinkowskiWrapper.pdb

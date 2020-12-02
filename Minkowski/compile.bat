@@ -1,0 +1,1 @@
+cl /Ox /Ob2 /Oi /Ot /Oy- /GL /GF /Gm- /MD /GS- /arch:AVX2 /fp:fast -I "C:\Program Files (x86)\boost_1_74_0" /LD minkowski.cc

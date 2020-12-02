@@ -1,0 +1,6 @@
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\clipper_library\bin\Debug\clipper_library.dll
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\clipper_library\bin\Debug\clipper_library.pdb
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\clipper_library\obj\Debug\clipper_library.csproj.CoreCompileInputs.cache
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\clipper_library\obj\Debug\clipper_library.dll
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\clipper_library\obj\Debug\clipper_library.pdb
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\clipper_library\obj\Debug\clipper_library.csprojAssemblyReference.cache

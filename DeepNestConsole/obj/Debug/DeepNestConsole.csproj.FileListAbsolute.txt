@@ -1,0 +1,15 @@
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\bin\Debug\task.xml
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\bin\Debug\DeepNestConsole.exe.config
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\bin\Debug\DeepNestConsole.exe
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\bin\Debug\DeepNestConsole.pdb
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\bin\Debug\DeepNestLib.dll
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\bin\Debug\clipper_library.dll
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\bin\Debug\MinkowskiWrapper.dll
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\bin\Debug\DeepNestLib.pdb
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\bin\Debug\clipper_library.pdb
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\bin\Debug\MinkowskiWrapper.pdb
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\obj\Debug\DeepNestConsole.csprojAssemblyReference.cache
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\obj\Debug\DeepNestConsole.csproj.CoreCompileInputs.cache
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\obj\Debug\DeepNestConsole.csproj.CopyComplete
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\obj\Debug\DeepNestConsole.exe
+C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestConsole\obj\Debug\DeepNestConsole.pdb
