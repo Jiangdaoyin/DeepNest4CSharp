@@ -645,6 +645,7 @@ namespace DeepNestPort
 
 
         bool stop = false;
+        //开始排样
         public void RunDeepnest()
         {
 
@@ -695,7 +696,7 @@ namespace DeepNestPort
             }
         }
 
-
+        //开始按钮
         private void button10_Click(object sender, EventArgs e)
         {
             if (sheets.Count == 0 || polygons.Count == 0)

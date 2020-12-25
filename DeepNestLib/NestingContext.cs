@@ -35,6 +35,7 @@ namespace DeepNestLib
         }
 
         bool offsetTreePhase = true;
+        //解的迭代更新
         public void NestIterate()
         {
             List<NFP> lsheets = new List<NFP>();

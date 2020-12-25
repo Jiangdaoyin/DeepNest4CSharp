@@ -1,0 +1,9 @@
+19-22 shape0
+23-30 shirts
+31-47 trousers
+48-63 dighe
+64-70 blaz
+71-95 jakobs1
+96-120 jakobs2
+121-128 marques
+129-136 albano

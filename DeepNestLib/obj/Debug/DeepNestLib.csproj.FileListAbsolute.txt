@@ -9,3 +9,14 @@ C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestLib\obj\D
 C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestLib\obj\Debug\DeepNestLib.csproj.CopyComplete
 C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestLib\obj\Debug\DeepNestLib.dll
 C:\Users\edang\Desktop\DeepNestPort-master\DeepNestPort-master\DeepNestLib\obj\Debug\DeepNestLib.pdb
+C:\Users\edang\Desktop\重点研究的算法\DeepNest\DeepNest4CSharp\DeepNestLib\bin\Debug\DeepNestLib.dll
+C:\Users\edang\Desktop\重点研究的算法\DeepNest\DeepNest4CSharp\DeepNestLib\bin\Debug\DeepNestLib.pdb
+C:\Users\edang\Desktop\重点研究的算法\DeepNest\DeepNest4CSharp\DeepNestLib\bin\Debug\clipper_library.dll
+C:\Users\edang\Desktop\重点研究的算法\DeepNest\DeepNest4CSharp\DeepNestLib\bin\Debug\MinkowskiWrapper.dll
+C:\Users\edang\Desktop\重点研究的算法\DeepNest\DeepNest4CSharp\DeepNestLib\bin\Debug\clipper_library.pdb
+C:\Users\edang\Desktop\重点研究的算法\DeepNest\DeepNest4CSharp\DeepNestLib\bin\Debug\MinkowskiWrapper.pdb
+C:\Users\edang\Desktop\重点研究的算法\DeepNest\DeepNest4CSharp\DeepNestLib\obj\Debug\DeepNestLib.csprojAssemblyReference.cache
+C:\Users\edang\Desktop\重点研究的算法\DeepNest\DeepNest4CSharp\DeepNestLib\obj\Debug\DeepNestLib.csproj.CoreCompileInputs.cache
+C:\Users\edang\Desktop\重点研究的算法\DeepNest\DeepNest4CSharp\DeepNestLib\obj\Debug\DeepNestLib.csproj.CopyComplete
+C:\Users\edang\Desktop\重点研究的算法\DeepNest\DeepNest4CSharp\DeepNestLib\obj\Debug\DeepNestLib.dll
+C:\Users\edang\Desktop\重点研究的算法\DeepNest\DeepNest4CSharp\DeepNestLib\obj\Debug\DeepNestLib.pdb

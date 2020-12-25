@@ -644,10 +644,7 @@ namespace DeepNestLib
                                         id = part.id,
                                         rotation = part.rotation,
                                         source = part.source.Value
-
                                     };
-
-
                                 }
                             }
                         }
@@ -660,15 +657,12 @@ namespace DeepNestLib
                         placements.Add(position);
                         placed.Add(part);
                         totalPlaced++;
-
                         continue;
                     }
 
                     clipperSheetNfp = innerNfpToClipperCoordinates(sheetNfp, config);
-
                     clipper = new ClipperLib.Clipper();
                     combinedNfp = new List<List<ClipperLib.IntPoint>>();
-
                     error = false;
 
                     // check if stored in clip cache

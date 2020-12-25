@@ -414,12 +414,12 @@ namespace DeepNestLib
 
             var simple = t;
 
-            simple = simplifyFunction(t, (inside == null) ? false : inside.Value);
+            simple = simplifyFunction(t, (inside == null) ? false : inside.Value);//这是干嘛的
 
             var offsetpaths = new NFP[] { simple };
             if (offset > 0)
             {
-                offsetpaths = polygonOffsetDeepNest(simple, offset);
+                offsetpaths = polygonOffsetDeepNest(simple, offset);//多边形放大或缩小
             }
 
             if (offsetpaths.Count() > 0)
@@ -471,7 +471,7 @@ namespace DeepNestLib
 
             var p = svgToClipper(polygon).ToList();
 
-            var miterLimit = 4;
+            var miterLimit = 40;//这个值影响尖锐的角扩充问题，如果值设置的太小，则尖锐的角可能会被锐化
             var co = new ClipperLib.ClipperOffset(miterLimit, Config.curveTolerance * Config.clipperScale);
             co.AddPath(p.ToList(), ClipperLib.JoinType.jtMiter, ClipperLib.EndType.etClosedPolygon);
 
