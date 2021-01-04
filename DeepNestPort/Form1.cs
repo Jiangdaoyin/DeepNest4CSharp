@@ -656,19 +656,17 @@ namespace DeepNestPort
                     context.StartNest();
                     UpdateNestsList();
                     Background.displayProgress = displayProgress;
-
+                    Stopwatch sw = new Stopwatch();
+                    sw.Start();
                     while (true)
                     {
-                        Stopwatch sw = new Stopwatch();
-                        sw.Start();
-
                         context.NestIterate();
                         UpdateNestsList();
                         displayProgress(1.0f);
-                        sw.Stop();
-                        toolStripStatusLabel1.Text = "Nesting time: " + sw.ElapsedMilliseconds + "ms";
                         if (stop) break;
                     }
+                    sw.Stop();
+                    toolStripStatusLabel1.Text = "Nesting time: " + sw.ElapsedMilliseconds + "ms";
                     th = null;
                 });
                 th.IsBackground = true;
