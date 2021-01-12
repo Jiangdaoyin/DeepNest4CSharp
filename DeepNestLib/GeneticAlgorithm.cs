@@ -92,7 +92,8 @@ namespace DeepNestLib
 
             return clone;
         }
-        Random r = new Random();
+        //Random r = new Random();
+        Random r = new Random(1);//可以保持结果恒定
         public float[] shuffleArray(float[] array)
         {
             for (var i = array.Length - 1; i > 0; i--)

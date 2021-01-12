@@ -38,7 +38,35 @@ namespace DeepNestPort
         }
         PictureBoxProgressBar progressBar1;
 
+        //对多边形进行扩大或缩小
+        public static List<NFP> PolyponsScale(List<NFP> p, double polyponScale = 1)
+        {
+            var ret = new List<NFP>();
+            foreach(var polypon in p)
+            {
+                var tempPolypon = polypon;
+                List<SvgPoint> pp = new List<SvgPoint>();
+                for (int i = 0; i < polypon.Points.Count(); i++)
+                {
+                    pp.Add(new SvgPoint(
+                        (long)Math.Round((decimal)polypon.Points[i].x * (decimal)polyponScale),
+                        (long)Math.Round((decimal)polypon.Points[i].y * (decimal)polyponScale)
+                    ));
+                }
+                tempPolypon.Points = pp.ToArray();
+                ret.Add(tempPolypon);
+            }
 
+            return ret;
+        }
+
+        ////对多边形进行扩大或缩小
+        //public static SvgPoint PolyponScale(SvgPoint p, double polyponScale = 1)
+        //{
+        //    p.x = (long)Math.Round((decimal)p.x * (decimal)polyponScale);
+        //    p.y = (long)Math.Round((decimal)p.y * (decimal)polyponScale);
+        //    return p;
+        //}
         public void UpdateList()
         {
             listView1.Items.Clear();
@@ -702,6 +730,15 @@ namespace DeepNestPort
                 MessageBox.Show("There are no sheets or parts", Text, MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
+            NestingContext context = new NestingContext();
+            sheets = context.Sheets;
+            polygons = context.Polygons;
+
+
+            sheets = PolyponsScale(sheets, SvgNest.Config.polygonScale);
+            polygons = PolyponsScale(polygons, SvgNest.Config.polygonScale);
+
+
             stop = false;
             progressBar1.Value = 0;
             tabControl1.SelectedTab = tabPage4;
@@ -1000,7 +1037,8 @@ namespace DeepNestPort
 
         NestingContext context = new NestingContext();
 
-        List<NFP> polygons { get { return context.Polygons; } }
+        //List<NFP> polygons { get { return context.Polygons; } }
+        List<NFP> polygons { get { return context.Polygons; } set { } }
 
         private void button6_Click(object sender, EventArgs e)
         {
@@ -1159,7 +1197,7 @@ namespace DeepNestPort
             }
         }
 
-        List<NFP> sheets { get { return context.Sheets; } }
+        List<NFP> sheets { get { return context.Sheets; } set { } }
 
         private void toolStripButton2_Click_1(object sender, EventArgs e)
         {
@@ -1264,6 +1302,31 @@ namespace DeepNestPort
         private void pictureBox1_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox6_TextChanged(object sender, EventArgs e)
+        {
+            try
+            {
+                SvgNest.Config.polygonScale = float.Parse(textBox6.Text, CultureInfo.InvariantCulture);
+                textBox3.BackColor = Color.White;
+                textBox3.ForeColor = Color.Black;
+            }
+            catch (Exception ex)
+            {
+                textBox3.BackColor = Color.Red;
+                textBox3.ForeColor = Color.White;
+            }
         }
     }
 }

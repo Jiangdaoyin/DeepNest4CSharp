@@ -123,7 +123,9 @@ namespace DeepNestLib
 
                 foreach (var item in lsheets)
                 {
-                    SvgNest.offsetTree(item, -0.5 * SvgNest.Config.spacing, SvgNest.Config, true);
+                    //SvgNest.offsetTree(item, -0.5 * SvgNest.Config.spacing, SvgNest.Config, true);
+                    //参数为复数是缩小多边形比例，直接乘以0.5倍的spacing是让多边形和母板间距保持spacing宽度，现改为母板自己设置的宽度
+                    SvgNest.offsetTree(item, - (SvgNest.Config.sheetSpacing - 0.5 * SvgNest.Config.spacing), SvgNest.Config, true);
                 }
             }
 
